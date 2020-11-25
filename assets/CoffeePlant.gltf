@@ -1,0 +1,268 @@
+{
+   "accessors" : [
+      {
+         "bufferView" : 0,
+         "componentType" : 5123,
+         "count" : 15732,
+         "max" : [ 15731 ],
+         "min" : [ 0 ],
+         "name" : "buffer-0-accessor-indices-buffer-0-mesh-0",
+         "type" : "SCALAR"
+      },
+      {
+         "bufferView" : 2,
+         "componentType" : 5126,
+         "count" : 15732,
+         "max" : [ 4.108386993408203, 8.991511344909668, 1.138167023658752 ],
+         "min" : [ -4.362380981445312, 0, -1.66949200630188 ],
+         "name" : "buffer-0-accessor-position-buffer-0-mesh-0",
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 2,
+         "byteOffset" : 188784,
+         "componentType" : 5126,
+         "count" : 15732,
+         "max" : [ 0.999629020690918, 1, 0.9996029734611511 ],
+         "min" : [ -0.9995369911193848, -1, -0.9999189972877502 ],
+         "name" : "buffer-0-accessor-normal-buffer-0-mesh-0",
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 1,
+         "componentType" : 5126,
+         "count" : 15732,
+         "max" : [ 1, 0 ],
+         "min" : [ 0, -0.9986820220947266 ],
+         "name" : "buffer-0-accessor-texcoord-buffer-0-mesh-0",
+         "type" : "VEC2"
+      },
+      {
+         "bufferView" : 3,
+         "componentType" : 5126,
+         "count" : 0,
+         "max" : [ 0, 0, 0, 0 ],
+         "min" : [ 0, 0, 0, 0 ],
+         "name" : "buffer-0-accessor-color-buffer-0-mesh-0",
+         "type" : "VEC4"
+      }
+   ],
+   "asset" : {
+      "extras" : {
+         "GOOGLE_processor_version" : 294144208
+      },
+      "generator" : "Obj2GltfConverter",
+      "version" : "2.0"
+   },
+   "bufferViews" : [
+      {
+         "buffer" : 0,
+         "byteLength" : 31464,
+         "byteStride" : 0,
+         "name" : "buffer-0-bufferview-ushort",
+         "target" : 34963
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 125856,
+         "byteOffset" : 31464,
+         "byteStride" : 8,
+         "name" : "buffer-0-bufferview-vec2",
+         "target" : 34962
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 377568,
+         "byteOffset" : 157320,
+         "byteStride" : 12,
+         "name" : "buffer-0-bufferview-vec3",
+         "target" : 34962
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 1,
+         "name" : "buffer-0-bufferview-vec4"
+      }
+   ],
+   "buffers" : [
+      {
+         "byteLength" : 534896,
+         "name" : "buffer-0",
+         "uri" : "CoffeePlant.bin"
+      }
+   ],
+   "cameras" : [
+      {
+         "perspective" : {
+            "yfov" : 0.7853981633974483,
+            "znear" : 0.1000000014901161
+         },
+         "type" : "perspective"
+      }
+   ],
+   "extensions" : {
+      "KHR_lights_punctual" : {
+         "lights" : [
+            {
+               "color" : [ 1, 0.9333333333333333, 0.8666666666666667 ],
+               "intensity" : 0.25,
+               "name" : "headLight",
+               "type" : "directional"
+            },
+            {
+               "color" : [ 1, 0.9333333333333333, 0.8666666666666667 ],
+               "intensity" : 0.324999988079071,
+               "name" : "keyLight",
+               "type" : "directional"
+            }
+         ]
+      }
+   },
+   "extensionsUsed" : [ "GOOGLE_backgrounds", "GOOGLE_camera_settings", "KHR_lights_punctual" ],
+   "extras" : {
+      "GOOGLE_initial_camera_motion" : {
+         "motionPath" : "FULL_ROTATION"
+      },
+      "GOOGLE_lighting_rig" : {
+         "disableShadows" : false
+      }
+   },
+   "images" : [
+      {
+         "mimeType" : "image/png",
+         "name" : "CoffeePlant_mat-image",
+         "uri" : "CoffeePlant_BaseColor.png"
+      }
+   ],
+   "materials" : [
+      {
+         "doubleSided" : true,
+         "name" : "CoffeePlant_mat",
+         "pbrMetallicRoughness" : {
+            "baseColorFactor" : [ 0.5, 0.5, 0.5, 1 ],
+            "baseColorTexture" : {
+               "index" : 0
+            },
+            "metallicFactor" : 0,
+            "roughnessFactor" : 0.9699476628648295
+         }
+      }
+   ],
+   "meshes" : [
+      {
+         "name" : "buffer-0-mesh-0",
+         "primitives" : [
+            {
+               "attributes" : {
+                  "NORMAL" : 2,
+                  "POSITION" : 1,
+                  "TEXCOORD_0" : 3
+               },
+               "indices" : 0,
+               "material" : 0
+            }
+         ]
+      }
+   ],
+   "nodes" : [
+      {
+         "mesh" : 0,
+         "name" : "node-0"
+      },
+      {
+         "children" : [ 2 ]
+      },
+      {
+         "children" : [ 3 ],
+         "extras" : {
+            "isTransformNode" : 1
+         },
+         "translation" : [ -0.1551118960011547, 5.455775395783697, -0.2945078583826023 ]
+      },
+      {
+         "children" : [ 0 ],
+         "translation" : [ 0.1551118960011547, -5.455775395783697, 0.2945078583826023 ]
+      },
+      {
+         "camera" : 0,
+         "children" : [ 5 ],
+         "rotation" : [
+            -0.2259454142657377,
+            -0.2214221174496203,
+            -0.05281978175408587,
+            0.9471699880865427
+         ],
+         "translation" : [ -5.099679201875198, 11.09692587710791, 9.702084805148694 ]
+      },
+      {
+         "extensions" : {
+            "KHR_lights_punctual" : {
+               "light" : 0
+            }
+         },
+         "extras" : {
+            "isHeadLight" : 1
+         },
+         "name" : "headLightNode",
+         "translation" : [ -7.118936484290669, 3.559468242145334, 3.559468242145334 ]
+      },
+      {
+         "extensions" : {
+            "KHR_lights_punctual" : {
+               "light" : 1
+            }
+         },
+         "extras" : {
+            "isKeyLight" : 1
+         },
+         "name" : "keyLightNode",
+         "rotation" : [ -0.7505326882858236, -0.3752663441429118, 0, 0.5439447166468927 ],
+         "scale" : [ 0, 0, 7.190125849133575 ],
+         "translation" : [ -7.465754651079338, 20.72720614046221, -7.47172487016219 ]
+      }
+   ],
+   "samplers" : [
+      {
+         "name" : "CoffeePlant_mat-sampler",
+         "wrapS" : 10497,
+         "wrapT" : 10497
+      }
+   ],
+   "scene" : 0,
+   "scenes" : [
+      {
+         "extensions" : {
+            "GOOGLE_backgrounds" : {
+               "color" : [ 1, 0.9215686274509803, 0.2313725490196079 ]
+            },
+            "GOOGLE_camera_settings" : {}
+         },
+         "extras" : {
+            "GOOGLE_camera_index" : {
+               "cameraIndex" : 0,
+               "nodeIndex" : 4
+            },
+            "GOOGLE_geometry_data" : {
+               "stats" : {
+                  "centroid" : [ -0.2756288019457628, 6.346954442195058, -0.2815990210286152 ],
+                  "radius" : 7.118936484290669,
+                  "stdev" : 2.578153140137974
+               },
+               "visualCenterPoint" : [ -0.1551118960011547, 5.455775395783697, -0.2945078583826023 ]
+            },
+            "GOOGLE_hemi_light" : {
+               "groundColor" : [ 1, 0.9215686274509803, 0.2313725490196079 ]
+            }
+         },
+         "name" : "scene-0",
+         "nodes" : [ 1, 4, 6 ]
+      }
+   ],
+   "textures" : [
+      {
+         "name" : "CoffeePlant_mat-texture",
+         "sampler" : 0,
+         "source" : 0
+      }
+   ]
+}
