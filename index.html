@@ -15,12 +15,11 @@
             embedded
             loading-screen="enabled: false;"
             arjs="sourceType: webcam; debugUIEnabled: false;"
-            renderer="precision: mediump;"
         >
             <a-assets>
                 <a-asset-item
                     id="animated-asset"
-                    src="assets/asset.gltf"
+                    src="assets/planta.gltf"
                 ></a-asset-item>
             </a-assets>
 
@@ -28,7 +27,7 @@
                     look-at="[gps-camera]"
                     animation-mixer="loop: repeat"
                     gltf-model="#animated-asset"
-                    scale="1 1 1"
+                    scale="5 5 5"
                     position='0 0 -20'
                 ></a-entity>
 
@@ -36,3 +35,4 @@
         </a-scene>
     </body>
 </html>
+
