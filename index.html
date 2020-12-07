@@ -11,6 +11,7 @@
 
     <body style="margin: 0; overflow: hidden;">
         <a-scene
+            gps-camera-debug
             renderer="logarithmicDepthBuffer: true;"
             embedded
             loading-screen="enabled: false;"
@@ -28,11 +29,9 @@
                     animation-mixer="loop: repeat"
                     gltf-model="#animated-asset"
                     scale="5 5 5"
-                    position='0 0 20'
-                    rotation='0 180 0'
                 ></a-entity>
 
-            <a-camera gps-camera rotation-reader></a-camera>
+            <a-camera gps-camera rotation-reader camera="" position="0 0 20" rotation=""></a-camera>
         </a-scene>
     </body>
 </html>
